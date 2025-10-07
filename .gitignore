@@ -1,0 +1,56 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+*.manifest
+*.spec
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# --- Virtual Environments ---
+venv/
+.env/
+env/
+.venv/
+ENV/
+env.bak/
+env_old/
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Data / Logs ---
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.json
+*.parquet
+*.db
+*.sqlite
+*.log
+*.gz
+*.zip
+*.tar
+*.tar.gz
+*.bak
+*.tmp
+
+# --- System files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Environment files ---
+*.env
+.env.local
+!obesity2.ipynb
